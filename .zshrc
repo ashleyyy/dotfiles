@@ -1,6 +1,6 @@
 export THINKIFICPATH="/Users/ashley/Thinkific"
-
 export EDITOR="code -w"
+export DEV_PACKAGES="zsh"
 
 alias gothink="cd $THINKIFICPATH/thinkific-dev && git pull && code ."
 alias gosb="cd $THINKIFICPATH/site-builder-dev && git pull  && code ."
