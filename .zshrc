@@ -17,3 +17,19 @@ alias startcp="gocp && ember s"
 alias startcheck="gocheck && yarn start"
 alias startcomm="gocomm && yarn dev"
 alias please="sudo"
+
+export ZSH="$HOME/.oh-my-zsh"
+ZSH_AUTOSUGGEST_STRATEGY=(completion)
+ZSH_THEME="agnoster"
+
+plugins=(
+  git
+  zsh-autosuggestions
+  zsh-syntax-highlighting
+  osx
+  npm
+  bundler
+  rails
+)
+
+source $ZSH/oh-my-zsh.sh
