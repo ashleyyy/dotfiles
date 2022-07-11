@@ -20,13 +20,10 @@ alias please="sudo"
 
 export ZSH="$HOME/.oh-my-zsh"
 ZSH_AUTOSUGGEST_STRATEGY=(completion)
-ZSH_THEME="agnoster"
+ZSH_THEME="alanpeabody"
 
 plugins=(
   git
-  zsh-autosuggestions
-  zsh-syntax-highlighting
-  osx
   npm
   bundler
   rails
