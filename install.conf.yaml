@@ -5,7 +5,9 @@
 - clean: ['~']
 
 - link:
-    ~/.zshrc: .zshrc
+    ~/.zshrc:
+      force: true
+      path: .zshrc
 
 - shell:
   - description: Installing submodules
