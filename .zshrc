@@ -1,4 +1,4 @@
-export THINKIFICPATH="/Users/ashley/Thinkific"
+export THINKIFICPATH="/Users/ashley/Thinkific/workspace"
 export EDITOR="code -w"
 export DEV_PACKAGES="zsh"
 
@@ -9,13 +9,6 @@ alias gocp="cd $THINKIFICPATH/kobayashi-dev && git pull  && code ."
 alias gocheck="cd $THINKIFICPATH/checkout-dev && git pull  && code ."
 alias gocomm="cd $THINKIFICPATH/communities-dev && git pull  && code ."
 
-alias startrails="gothink && bin/rails s"
-alias startnpm="gothink && yarn start"
-alias startsb="gosb && yarn start"
-alias startcb="gocb && npm start"
-alias startcp="gocp && ember s"
-alias startcheck="gocheck && yarn start"
-alias startcomm="gocomm && yarn dev"
 alias please="sudo"
 
 export ZSH="$HOME/.oh-my-zsh"
@@ -30,3 +23,5 @@ plugins=(
 )
 
 source $ZSH/oh-my-zsh.sh
+source $(brew --prefix nvm)/nvm.sh
+ssh-add --apple-load-keychain &> /dev/null
